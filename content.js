@@ -39,8 +39,14 @@ window.SITE = {
     caption: `Finance · Department of Business Administration<br>Universidad Carlos III de Madrid`
   },
 
-  intro: `I am a PhD candidate in Finance at the Department of Business Administration, Universidad Carlos III de Madrid (UC3M).
-          My research studies [your fields, e.g. asset pricing / corporate finance], with a focus on [your topic].`,
+  intro: `I'm Francisco, PhD candidate from Universidad Carlos III de Madrid. 
+
+I work in both theoretical and empirical banking. 
+
+My research interests are bank and non-bank financial intermediation, prudential regulation, systemic risk.
+
+
+Contact me: francisco.santinelli(at)uc3m(dot)es`,
 
   heroButtons: [
     { label: "Download CV", url: "cv.pdf", primary: true }
