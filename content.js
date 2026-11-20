@@ -40,13 +40,8 @@ window.SITE = {
   },
 
   intro: `I'm Francisco, PhD candidate from Universidad Carlos III de Madrid. 
-
 I work in both theoretical and empirical banking. 
-
-My research interests are bank and non-bank financial intermediation, prudential regulation, systemic risk.
-
-
-Contact me: francisco.santinelli(at)uc3m(dot)es`,
+My research interests are bank and non-bank financial intermediation, prudential regulation, systemic risk.`,
 
   heroButtons: [
     { label: "Download CV", url: "cv.pdf", primary: true }
@@ -55,30 +50,6 @@ Contact me: francisco.santinelli(at)uc3m(dot)es`,
   /* ---------- Menu label for the top of the page ---------- */
   homeLabel: "Home",
 
-  /* ---------- About ---------- */
-  about: {
-    show: true,
-    menu: "About",
-    title: "About",
-    paragraphs: [
-      `Short academic bio: your background, your main research question in one or two sentences,
-       and what you want to understand. Mention visiting positions if any.`
-    ],
-    advisorsLabel: "Advisors",
-    advisors: [
-      { name: "Prof. Advisor One", url: "https://example.com" },
-      { name: "Prof. Advisor Two", url: "https://example.com" }
-    ],
-    advisorsSuffix: "(UC3M)",
-    fieldsLabel: "Research fields",
-    fields: ["[Field one]", "[Field two]", "[Field three]"],
-    educationLabel: "Education",
-    education: [
-      { when: "[20XX – present]", text: "PhD in [Business Administration and Quantitative Methods / Finance], Universidad Carlos III de Madrid" },
-      { when: "[20XX – 20XX]",    text: "MSc in [Finance / Economics], [University]" },
-      { when: "[20XX – 20XX]",    text: "BSc in [Economics / Business], [University]" }
-    ]
-  },
 
   /* ---------- Research ---------- */
   research: {
@@ -90,19 +61,17 @@ Contact me: francisco.santinelli(at)uc3m(dot)es`,
         heading: "Job Market Paper",
         papers: [
           {
-            title: "Title of Your Job Market Paper",
-            badge: "JMP",
-            meta: "Single-authored",
+            title: "The demand for banks, unregulated banks and NBFIs",
+           /* badge: "JMP", */
+            meta: "with Augusto Hasman and Margarita Samaritan",
             links: [
-              { label: "PDF",    url: "papers/jmp.pdf" },
-              { label: "SSRN",   url: "https://papers.ssrn.com/" },
-              { label: "Slides", url: "slides/jmp-slides.pdf" }
+              { label: "PDF",    url: "papers/jmp.pdf" }
             ],
-            abstract: `Paste the abstract here: question, data and method, main finding, contribution.`
+            abstract: `In this paper, we develop a framework in which the competition of financial intermediaries for heterogeneous depositors results in a menu of contracts analogous to those offered by traditional banks, unregulated banks and non-bank financial institutions (NBFIs). We show that while a safe liquidity contract fails to emerge in the \textit{laissez-faire} equilibrium due to a commitment problem, it is welfare-improving for individuals with high liquidity shocks, thereby motivating regulation. We demonstrate that the policy that implements this first-best contract is a reserve requirement, whereas a capital requirement produces a second-best contract when it is strict, but induces an increase in total risk when it is too lax.`
           }
         ]
       },
-      {
+   /*   {
         heading: "Working Papers",
         papers: [
           {
@@ -133,8 +102,7 @@ Contact me: francisco.santinelli(at)uc3m(dot)es`,
             links: [ { label: "PDF", url: "papers/published1.pdf" }, { label: "DOI", url: "https://doi.org/..." } ]
           }
         ]
-      }
-      */
+      } */
     ]
   },
 
